@@ -1,0 +1,22 @@
+# 1. Secrets (CRITICAL)
+.env
+
+# 2. Binaries / Exes (Windows & Mac/Linux)
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+test # sometime go test creates this
+
+# 3. Vendor folder (if you use it later)
+vendor/
+
+# 4. OS Specific files
+.DS_Store
+Thumbs.db
+
+# 5. IDE Specifics
+.idea/
+.vscode/
+.zed/
